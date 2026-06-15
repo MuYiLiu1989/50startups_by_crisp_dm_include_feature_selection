@@ -1,0 +1,51 @@
+Method,Num_Features,Selected_Features,R2_Score,RMSE,MAE
+SelectKBest_f_regression,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+SelectKBest_f_regression,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+SelectKBest_f_regression,3,"R&D Spend, Marketing Spend, State_New York",0.9160976403529739,8242.78264948212,6430.578356772688
+SelectKBest_f_regression,4,"R&D Spend, Marketing Spend, State_New York, State_Florida",0.915855127628212,8254.686589379771,6454.510107266872
+SelectKBest_f_regression,5,"R&D Spend, Marketing Spend, State_New York, State_Florida, Administration",0.8987266414319839,9055.957323497805,6961.4778132755555
+SelectKBest_mutual_info,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+SelectKBest_mutual_info,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+SelectKBest_mutual_info,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+SelectKBest_mutual_info,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+SelectKBest_mutual_info,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+RFE_LinearRegression,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+RFE_LinearRegression,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+RFE_LinearRegression,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+RFE_LinearRegression,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+RFE_LinearRegression,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+RFE_Ridge,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+RFE_Ridge,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+RFE_Ridge,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+RFE_Ridge,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+RFE_Ridge,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+LR_Coefficients,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+LR_Coefficients,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+LR_Coefficients,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+LR_Coefficients,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+LR_Coefficients,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+RandomForest_Importance,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+RandomForest_Importance,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+RandomForest_Importance,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+RandomForest_Importance,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+RandomForest_Importance,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+Permutation_Importance,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+Permutation_Importance,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+Permutation_Importance,3,"R&D Spend, Marketing Spend, State_New York",0.9160976403529739,8242.78264948212,6430.578356772688
+Permutation_Importance,4,"R&D Spend, Marketing Spend, State_New York, State_Florida",0.915855127628212,8254.686589379771,6454.510107266872
+Permutation_Importance,5,"R&D Spend, Marketing Spend, State_New York, State_Florida, Administration",0.8987266414319839,9055.957323497805,6961.4778132755555
+Pearson_Correlation,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+Pearson_Correlation,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+Pearson_Correlation,3,"R&D Spend, Marketing Spend, State_New York",0.9160976403529739,8242.78264948212,6430.578356772688
+Pearson_Correlation,4,"R&D Spend, Marketing Spend, State_New York, State_Florida",0.915855127628212,8254.686589379771,6454.510107266872
+Pearson_Correlation,5,"R&D Spend, Marketing Spend, State_New York, State_Florida, Administration",0.8987266414319839,9055.957323497805,6961.4778132755555
+Lasso_Coefficients,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+Lasso_Coefficients,2,"R&D Spend, Marketing Spend",0.9168381183550246,8206.32881316586,6469.181721468597
+Lasso_Coefficients,3,"R&D Spend, Marketing Spend, Administration",0.900065308303732,8995.905803361416,6979.1522523704025
+Lasso_Coefficients,4,"R&D Spend, Marketing Spend, Administration, State_Florida",0.8987266318421848,9055.957752262138,6961.48684573094
+Lasso_Coefficients,5,"R&D Spend, Marketing Spend, Administration, State_Florida, State_New York",0.898726641431984,9055.9573234978,6961.477813275555
+XGBoost_Importance,1,R&D Spend,0.9265108109341951,7714.334890830185,6077.363300620399
+XGBoost_Importance,2,"R&D Spend, State_New York",0.9264390221258125,7718.101892038499,6052.031362903191
+XGBoost_Importance,3,"R&D Spend, State_New York, Administration",0.896793925070689,9141.961574798588,7214.748040370187
+XGBoost_Importance,4,"R&D Spend, State_New York, Administration, Marketing Spend",0.8996381209725024,9015.112541602852,6974.873066154201
+XGBoost_Importance,5,"R&D Spend, State_New York, Administration, Marketing Spend, State_Florida",0.8987266414319841,9055.957323497794,6961.477813275551

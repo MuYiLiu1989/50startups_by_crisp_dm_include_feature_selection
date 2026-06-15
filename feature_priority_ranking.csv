@@ -1,0 +1,11 @@
+Method,Rank1,Rank2,Rank3,Rank4,Rank5
+SelectKBest_f_regression,R&D Spend,Marketing Spend,State_New York,State_Florida,Administration
+SelectKBest_mutual_info,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+RFE_LinearRegression,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+RFE_Ridge,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+LR_Coefficients,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+RandomForest_Importance,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+Permutation_Importance,R&D Spend,Marketing Spend,State_New York,State_Florida,Administration
+Pearson_Correlation,R&D Spend,Marketing Spend,State_New York,State_Florida,Administration
+Lasso_Coefficients,R&D Spend,Marketing Spend,Administration,State_Florida,State_New York
+XGBoost_Importance,R&D Spend,State_New York,Administration,Marketing Spend,State_Florida
